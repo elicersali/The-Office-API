@@ -1,0 +1,52 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+    font-family: 'helvetica bold', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    background-image: url('/images/the-office.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  nav,main,aside{
+    float: left;
+    width: 10%;
+  }
+  main{
+    width: 50%;
+  }
+  aside{
+    width: 40%;
+  } 
+  
+  h1, h2 {
+    color: white;
+  }
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
