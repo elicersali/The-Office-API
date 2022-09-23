@@ -6,7 +6,6 @@ const PORT = 8000
 app.use('/js', express.static('js'));
 app.use('/css', express.static('css'));
 app.use('/images', express.static('images'));
-
 app.use(cors())
 
 const characters ={
